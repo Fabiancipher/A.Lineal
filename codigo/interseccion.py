@@ -3,7 +3,7 @@ from sympy import Point3D, Line3D, Plane #Para calculos
 import numpy as np
 #Para los graficos
 import matplotlib.pyplot as plt
-from mpl_toolkits.mplot3d import Axes 3D
+from mpl_toolkits.mplot3d import Axes3D
 #Determina una recta a partir de dos puntos
 p1 = Point3D(0, 0, 0)
 p2 = Point3D(1, 1, 1)
@@ -15,7 +15,7 @@ print("El punto de interseccion es: ", intersection)
 #Determina la recta de forma parametrizada
 t = np.linspace(-10, 10, 100)
 x = t
-y t
+y = t
 z = t
 #Dibuja la recta
 fig = plt.figure()
